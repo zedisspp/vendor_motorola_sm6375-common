@@ -15736,21 +15736,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "init.kernel.post_boot-blair",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-blair.sh",
-    filename: "init.kernel.post_boot-blair.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-holi",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-holi.sh",
-    filename: "init.kernel.post_boot-holi.sh",
-    soc_specific: true,
-}
 
 sh_binary {
     name: "init.kernel.post_boot",
