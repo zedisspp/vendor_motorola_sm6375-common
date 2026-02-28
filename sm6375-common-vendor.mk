@@ -103,12 +103,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.eid@1.0-service.rc \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.2-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -117,14 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/media_blair/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_blair/video_system_specs.json \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/media_holi/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_holi/video_system_specs.json \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/qcril_database/upgrade/config/12.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/12.0_config.sql \
@@ -193,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
@@ -202,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/motorola/sm6375-common/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
@@ -388,13 +376,6 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libmmosal_vendor \
-    libmulawdec \
-    libnetmgr \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
-    libqcci_legacy \
-    libqcmaputils \
     libqdi \
     libqdp \
     libqmi \
@@ -406,10 +387,6 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-util \
-    libqtigef \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -437,7 +414,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.qspmhal@1.0_vendor \
+    btaudio_offload_if \
+    vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
     libDxHdcp \
     libFileMux_proprietary \
     libadm \
@@ -725,31 +704,41 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor.qti.qspmhal@1.0-impl \
-    bm2n06 \
-    bm2n08 \
-    bm2n12 \
-    bm2n13 \
-    bm2n14 \
-    bm2n15 \
-    capi_v2_aptX_CLHDAD_Encoder \
-    libadsp_jpege_skel \
-    libapps_mem_heap \
-    libbitml_nsp_skel \
-    libbitml_nsp_v2_skel \
-    libcamera_nn_skel \
-    libdspCV_skel \
-    libdsp_streamer_binning \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhdr_skel \
-    libmctfengine_skel \
-    libneat_1_1_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
-    com.qualcomm.qti.ant@1.0 \
+    vendor_lib_rfsa_adsp_bm2n06_bin \
+    vendor_lib_rfsa_adsp_bm2n08_bin \
+    vendor_lib_rfsa_adsp_bm2n12_bin \
+    vendor_lib_rfsa_adsp_bm2n13_bin \
+    vendor_lib_rfsa_adsp_bm2n14_bin \
+    vendor_lib_rfsa_adsp_bm2n15_bin \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Encoder_so \
+    vendor_lib_rfsa_adsp_libadsp_jpege_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_v2_skel_so \
+    vendor_lib_rfsa_adsp_libcamera_nn_skel_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libhdr_skel_so \
+    vendor_lib_rfsa_adsp_libmctfengine_skel_so \
+    vendor_lib_rfsa_adsp_libneat_1_1_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
+    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
+    com.qualcomm.qti.dpm.api@1.0 \
+    lib-imsvideocodec \
+    lib-imsvt \
+    lib-imsvtextutils \
+    lib-imsvtutils \
+    libdiag_system \
+    libdpmctmgr \
+    libdpmfdmgr \
+    libdpmframework \
+    libdpmtcm \
+    libimscamera_jni \
+    libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
@@ -853,7 +842,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.eid@1.0-service \
-    vendor.qti.hardware.perf@2.2-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.soter@1.0-service \
@@ -901,8 +889,6 @@ PRODUCT_PACKAGES += \
     tftp_server \
     thermal-engine \
     time_daemon \
-    vendor.qti.hardware.soter@1.0-provision \
-    vendor.qti.qspmhal@1.0-service \
     vendor_modprobe \
     wfdhdcphalservice \
     wfdvndservice \
