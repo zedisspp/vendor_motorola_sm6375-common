@@ -676,8 +676,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2@1.0-service \
     ims_rtp_daemon \
     imsdaemon \
-    init.kernel.post_boot-blair \
-    init.kernel.post_boot-holi \
     init.kernel.post_boot \
     init.qcom.sensors \
     init.qti.chg_policy \
