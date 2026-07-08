@@ -12470,6 +12470,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
+    check_elf_files: false,
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
